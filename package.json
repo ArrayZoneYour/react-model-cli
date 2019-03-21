@@ -1,0 +1,23 @@
+{
+  "name": "react-model-cli",
+  "version": "0.0.1",
+  "description": "The CLI Tools for react-model",
+  "main": "index.js",
+  "scripts": {
+    "build": "microbundle -o ./dist --sourcemap false"
+  },
+  "bin": {
+    "react-model": "./index.js"
+  },
+  "author": "ArrayZoneYour",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^11.11.4",
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.1",
+    "handlebars": "^4.1.1",
+    "react-model": "^2.5.3",
+    "touch": "^3.1.0"
+  }
+}
