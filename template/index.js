@@ -12,7 +12,11 @@ export const {
   unsubscribe
 } = Model({
   {{#models}}
-  {{name}},
+  {{#if @last}}
+    {{name}}
+  {{^}}
+    {{name}},
+  {{/if}}
   {{/models}}
 })`
 

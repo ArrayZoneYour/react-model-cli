@@ -1,6 +1,6 @@
 {
   "name": "react-model-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The CLI Tools for react-model",
   "main": "index.js",
   "scripts": {
